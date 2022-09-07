@@ -56,7 +56,7 @@ button {
     font-size: 18px;
 }
 .nav #brand a {
-    color: #fff;
+    color: rgb(156, 156, 156);
     font-family: Poppins !important;
     transition: all 500ms ease-out;
 }
@@ -238,7 +238,7 @@ button {
 }
 .header{
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -282,6 +282,10 @@ button {
 .content {
     position: absolute;
     margin-top: 100vh;
+    width: 100%;
+}
+.content-all{
+    position: absolute;
     width: 100%;
 }
 @media(max-width: 900px) {
@@ -414,6 +418,7 @@ button {
         letter-spacing: 2px;
         transform: rotate(-90deg);
         border-bottom: 3px solid #4588D5;
+        margin: 0px 120px;
     }
 }
 /* about end */
@@ -903,17 +908,19 @@ textarea:focus {
     font-family: 'Roboto Mono'!important;
     font-size: 15px !important;
     color: grey;
+
 }    
 .ormawa-deskripsi h1{
     font-family: 'Poppins', sans-serif !important;
     font-weight: bold; 
     letter-spacing: 0.5px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .ormawa-deskripsi p{
     font-family: 'Roboto Mono'!important;
     font-size: 15px !important;
     color: grey;
+    text-align: justify;
 }
 .sosial-media h1{
     font-family: 'Poppins', sans-serif !important;
@@ -927,16 +934,28 @@ textarea:focus {
     letter-spacing: 0.5px;
     font-size: 30px;
 }
+.proker h1{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold; 
+    letter-spacing: 0.5px;
+    font-size: 30px;
+}
+.proker ul li{
+    font-family: 'Roboto Mono'!important;
+    font-weight: bold; 
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
 .sosial-ormawa{
-    width: 50%;
+    width: 60%;
     border-bottom: 2px solid black;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .link-social {
     font-family: 'Roboto Mono'!important;
     text-decoration: none !important;
     color: black;
-    font-size: 20px; 
+    font-size: 18px; 
 }
 .btn-close {
     -webkit-box-shadow: none !important;
