@@ -1,122 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Balma</title>
     <!-- Icon -->
-    <script src="https://kit.fontawesome.com/18ae661047.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/18ae661047.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="..//assets/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="..//assets/css/bootstrap.min.css" />
 
     <!-- Css -->
-    <link rel="stylesheet" href="..//assets/css/main.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+    <link rel="stylesheet" href="..//assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
     <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">  
-      
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="wrapper">
       <!-- navbar  -->
-      <nav class="nav">
-        <span id="brand">
-          <a class="navbar-brand" href="#">
-            <img src="../assets/img/logo.png" alt="" width="30" height="28" class="d-inline-block align-text-top img-fluid">
-            BALMA
+      <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../assets/img/logo.png"
+              alt=""
+              width="30"
+              height="28"
+              class="d-inline-block align-text-top"
+              style="margin-left: 40px"
+            />
+            <span class="logo-name text-light fs-4">Balma</span>
           </a>
-        </span>
-
-        <ul id="menu">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./aspirasi.html">Aspirasi</a></li>
-          <li><a href="./ormawa.html">Ormawa</a></li>
-          <li><a href="./kegiatan.html">Kegiatan</a></li>
-          <li><a href="./faq.html">Faq</a></li>
-          <!-- <li><a href="./blog.html">Blog</a></li> -->
-        </ul>
-
-        <div id="toggle">
-          <div class="span">Menu</div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div id="toggle">
+              <div class="span text-light">Menu</div>
+            </div>
+          </button>
+          <div
+            class="collapse navbar-collapse bg-navbar justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav gap-4">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="aspirasi.html"
+                  >Aspirasi</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Ormawa
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-center" href="ormawa.html"
+                      >List Ormawa</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-center" href="#">RKA Ormawa</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-center" href="#"
+                      >Alur Administrasi Ormawa</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-center" href="#"
+                      >Kalender Akademik</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="kegiatan.html"
+                  >Kegiatan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="faq.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
       </nav>
-      <div id="resize">
-        <div class="close-btn">Close</div>
 
-        <ul id="menu">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./aspirasi.html">Aspirasi</a></li>
-          <li><a href="./ormawa.html">Ormawa</a></li>
-          <li><a href="./kegiatan.html">Kegiatan</a></li>
-          <li><a href="./faq.html">Faq</a></li>
-          <!-- <li><a href="./blog.html">Blog</a></li> -->
-        </ul>
-      </div>
       <!-- navbar end -->
-
 
       <!-- hero -->
       <div class="img-container">
-        <img src="../assets/img/bg.png" alt="">
+        <img src="../assets/img/bg.png" alt="" />
       </div>
 
       <div class="header">
-            <h1>Balma</h1>
-            <h2>ITB STIKOM BALI</h2>
+        <h1>Balma</h1>
+        <h2>ITB STIKOM BALI</h2>
       </div>
       <!-- hero end -->
       <div class="content">
-
         <!-- ormawa-->
         <section class="ormawa">
-
           <div class="container">
-            
-
-            <div class="row ">
-              <div class="col-md-12 ">
-                <div class="team-heading ">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="team-heading">
                   <h1>Ormawa</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto earum iure aliquam quo sunt odio doloribus non omnis, magnam numquam temporibus, laboriosam nihil alias deleniti eveniet nam rem dignissimos? Quibusdam.</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Architecto earum iure aliquam quo sunt odio doloribus non
+                    omnis, magnam numquam temporibus, laboriosam nihil alias
+                    deleniti eveniet nam rem dignissimos? Quibusdam.
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div class="row  ">
-              <div class="col-md-4 d-flex justify-content-center">
-                  <div class="ormawa-card">
-                    <div class="img-ormawa">
-                      <img src="../assets/img/logo.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="info-ormawa text-center">
-                      <h4>BALMA</h4> 
-                      <p>Badan Legislatif Mahasiswa ITB STIKOM Bali</p>
-                      <a class="btn-ormawa " data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        View Detail
-                      </a>
-                    </div>
-                  </div>
-              </div>        
-              
+            <div class="row">
               <div class="col-md-4 d-flex justify-content-center">
                 <div class="ormawa-card">
                   <div class="img-ormawa">
-                    <img src="../assets/img/logo.png" class="img-fluid" alt="">
+                    <img
+                      src="../assets/img/logo.png"
+                      class="img-fluid"
+                      alt=""
+                    />
                   </div>
                   <div class="info-ormawa text-center">
-                    <h4> BALMA</h4> 
+                    <h4>BALMA</h4>
                     <p>Badan Legislatif Mahasiswa ITB STIKOM Bali</p>
-                    <a class="btn-ormawa " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <a
+                      class="btn-ormawa"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      View Detail
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 d-flex justify-content-center">
+                <div class="ormawa-card">
+                  <div class="img-ormawa">
+                    <img
+                      src="../assets/img/logo.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="info-ormawa text-center">
+                    <h4>BALMA</h4>
+                    <p>Badan Legislatif Mahasiswa ITB STIKOM Bali</p>
+                    <a
+                      class="btn-ormawa"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
                       View Detail
                     </a>
                   </div>
@@ -125,110 +218,142 @@
               <div class="col-md-4 d-flex justify-content-center">
                 <div class="ormawa-card">
                   <div class="img-ormawa">
-                    <img src="../assets/img/logo.png" class="img-fluid" alt="">
+                    <img
+                      src="../assets/img/logo.png"
+                      class="img-fluid"
+                      alt=""
+                    />
                   </div>
                   <div class="info-ormawa text-center">
-                    <h4 class="">BALMA</h4> 
+                    <h4 class="">BALMA</h4>
                     <p>Badan Legislatif Mahasiswa ITB STIKOM Bali</p>
-                    <a class="btn-ormawa " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <a
+                      class="btn-ormawa"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
                       View Detail
                     </a>
                   </div>
                 </div>
               </div>
-              
-                      
-
+            </div>
           </div>
-
-          </div>
-
         </section>
         <!-- ormawa end -->
         <div class="footer">
-
           <div class="container">
-  
-                <div class="info">
-  
-                      <div class="row footer-info ">
-                            <div class="col-md-3 footer col-sm-12 img text-center" id="address">
-                                <img src="../assets/img/logo.png" class="img-fluid" alt="..." width="200">
-                                  <br><br>
-                            </div>
-  
-                            <div class="col-md-3 col-sm-12" id="media">
-                                  <h1>About</h1>
-                                  <p>Badan Legislatif Mahasiswa ITB STIKOM Bali merupakan organisasi yang memiliki tugas melakukan pengawasan terhadap kegiatan ORMAWA ITB STIKOM Bali dan sebagai wadah terhadap seluruh aspirasi Civitas kampus ITB STIKOM Bali.</p>
-                                  <br><br>
-                            </div>
-  
-                            <div class="col-md-3 col-sm-12" id="mail">
-                                  <h1>Contact</h1>
-                                  <p>Jl. Raya Puputan No.86, Dangin Puri Klod, Kec. Denpasar Tim., Kota Denpasar, Bali 80234</p>
-  
-                                  <a href="">legisatifmahasiswa.stikombali@gmail.com</a>
-                                  <br>
-                                  <a href=""> 0823-3959-7213</a>
-                                  <br><br>
-                            </div>
-                            <div class="col-md-3"></div>
-                      </div>
-                      <hr class="hr-footer">
-                      <div class="row">
-                        <div class="col-md-12" >
-                            <p>© BALMA ITB STIKOM Bali 2022.</p> 
-                        </div>
-                      </div>
-  
+            <div class="info">
+              <div class="row footer-info">
+                <div
+                  class="col-md-3 footer col-sm-12 img text-center"
+                  id="address"
+                >
+                  <img
+                    src="../assets/img/logo.png"
+                    class="img-fluid"
+                    alt="..."
+                    width="200"
+                  />
+                  <br /><br />
                 </div>
-  
+
+                <div class="col-md-3 col-sm-12" id="media">
+                  <h1>About</h1>
+                  <p>
+                    Badan Legislatif Mahasiswa ITB STIKOM Bali merupakan
+                    organisasi yang memiliki tugas melakukan pengawasan terhadap
+                    kegiatan ORMAWA ITB STIKOM Bali dan sebagai wadah terhadap
+                    seluruh aspirasi Civitas kampus ITB STIKOM Bali.
+                  </p>
+                  <br /><br />
+                </div>
+
+                <div class="col-md-3 col-sm-12" id="mail">
+                  <h1>Contact</h1>
+                  <p>
+                    Jl. Raya Puputan No.86, Dangin Puri Klod, Kec. Denpasar
+                    Tim., Kota Denpasar, Bali 80234
+                  </p>
+
+                  <a href="">legisatifmahasiswa.stikombali@gmail.com</a>
+                  <br />
+                  <a href=""> 0823-3959-7213</a>
+                  <br /><br />
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+              <hr class="hr-footer" />
+              <div class="row">
+                <div class="col-md-12">
+                  <p>© BALMA ITB STIKOM Bali 2022.</p>
+                </div>
+              </div>
+            </div>
           </div>
-  
         </div>
       </div>
-
-
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
       <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="modal-body">
             <div class="container">
               <div class="row">
                 <div class="col-md-8">
-                  <div class="row d-flex align-items-center"> 
-                    <div class="col-md-4 ">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-4">
                       <div class="img-detail">
-                        <img src="../assets/img/logo_stikom.png" class="img-thumbnail" alt="...">
+                        <img
+                          src="../assets/img/logo_stikom.png"
+                          class="img-thumbnail"
+                          alt="..."
+                        />
                       </div>
                     </div>
                     <div class="col-md-8 ormawa-info">
                       <h4>UKM</h4>
 
-                      <h6>Balma</h6> 
+                      <h6>Balma</h6>
                       <p>Badan Legislatif Mahasiswa ITB STIKOM Bali</p>
                     </div>
                   </div>
-                  <div class="row ">
+                  <div class="row">
                     <div class="col-md-12 ormawa-deskripsi">
                       <h1>Deskripsi</h1>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ipsam? Unde assumenda fugit amet cum? Debitis, sit quasi. Dolores saepe minima perspiciatis ea dolorum magni voluptatum nisi repellat similique a.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, sequi ut. Quas rerum voluptas aut dolorem velit? Eligendi cupiditate maxime laudantium minima fugit, odio dignissimos non aspernatur officia dolorum ut?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga, ipsam? Unde assumenda fugit amet cum? Debitis, sit
+                        quasi. Dolores saepe minima perspiciatis ea dolorum
+                        magni voluptatum nisi repellat similique a. Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Voluptas,
+                        sequi ut. Quas rerum voluptas aut dolorem velit?
+                        Eligendi cupiditate maxime laudantium minima fugit, odio
+                        dignissimos non aspernatur officia dolorum ut?
                       </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="row ">
+                  <div class="row">
                     <div class="col-md-12 sosial-media">
                       <h1>Social Media :</h1>
-                      <div class="row ">
+                      <div class="row">
                         <div class="col-md-12">
                           <div class="sosial-ormawa">
                             <a href="" class="link-social">@krisnasedana</a>
@@ -238,7 +363,7 @@
                           <div class="sosial-ormawa">
                             <a href="" class="link-social">@krisnasedana</a>
                           </div>
-                        </div> 
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-12 contact-person">
@@ -267,32 +392,43 @@
     <!-- Script  Bootstrap-->
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <!-- jquery -->
-    <script src="https://kit.fontawesome.com/18ae661047.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/18ae661047.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
     <!-- owl carousel -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <script>
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
       $(function () {
         $(document).scroll(function () {
           var $nav = $(".nav");
-          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
         });
       });
-
     </script>
-</body>
+  </body>
 </html>
