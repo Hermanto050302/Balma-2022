@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balma</title>
-    <!-- Icon -->
-    <script src="https://kit.fontawesome.com/18ae661047.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="..//assets/css/bootstrap.min.css">    
@@ -23,6 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>   
       
 </head>
 <body>
@@ -82,15 +83,15 @@
 
             <div class="container">
 
-              <div class="row ">
-                <div class="col-md-12 ">
-                  <div class="team-heading ">
-                    <h1>Kegiatan</h1>
+                <div class="row ">
+                  <div class="col-md-12 ">
+                    <div class="team-heading ">
+                      <h1>Kegiatan</h1>
+                    </div>
                   </div>
                 </div>
-              </div>
-                  <div class="row ">
-                        <div class="col-md-6">
+                  <div class="row  d-flex flex-column-reverse">
+                        <div class="col-md-12">
                             <form action="" name="contact-form" id="contact-form" method="POST">
                             <label for="aspirasi-name">Nama Kegiatan :</label>
                               <div class="textarea">
@@ -145,8 +146,55 @@
 
                           </form>
                       </div>
-                      <div class="col-md-6">
-
+                      <div class="col-md-12 mb-2 mt-2">
+                        <div class="calender-container-1  w-100">
+                          <div class="calendar-container">
+                            <div class="calendar"> 
+                              <div class="year-header"> 
+                                <i class="fa-regular fa-arrow-right"></i>
+                                <span class="left-button fa fa-chevron-left" id="prev"> </span> 
+                                <span class="year" id="label"></span> 
+                                <span class="right-button fa fa-chevron-right" id="next"> </span>
+                              </div> 
+                              <table class="months-table w-100"> 
+                                <tbody>
+                                  <tr class="months-row">
+                                    <td class="month">Jan</td> 
+                                    <td class="month">Feb</td> 
+                                    <td class="month">Mar</td> 
+                                    <td class="month">Apr</td> 
+                                    <td class="month">May</td> 
+                                    <td class="month">Jun</td> 
+                                    <td class="month">Jul</td>
+                                    <td class="month">Aug</td> 
+                                    <td class="month">Sep</td> 
+                                    <td class="month">Oct</td>          
+                                    <td class="month">Nov</td>
+                                    <td class="month">Dec</td>
+                                  </tr>
+                                </tbody>
+                              </table> 
+                              
+                              <table class="days-table w-100"> 
+                                <td class="day">Sun</td> 
+                                <td class="day">Mon</td> 
+                                <td class="day">Tue</td> 
+                                <td class="day">Wed</td> 
+                                <td class="day">Thu</td> 
+                                <td class="day">Fri</td> 
+                                <td class="day">Sat</td>
+                              </table> 
+                              <div class="frame"> 
+                                <table class="dates-table w-100"> 
+                                  <tbody class="tbody">             
+                                  </tbody> 
+                                </table>
+                              </div> 
+                            </div>
+                          </div>
+                          <div class="events-container">
+                          </div>
+                        </div>
                       </div>
                   </div>
 
@@ -199,11 +247,14 @@
     </div>
         <!-- Script  Bootstrap-->
         <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
         <!-- jquery -->
         <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
         <!-- owl carousel -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+        <script src="../assets/js/calender.js"></script>
+
     <!-- nabvar -->
     <script>
       $("#toggle").click(function() {
